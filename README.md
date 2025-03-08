@@ -14,7 +14,7 @@ I threw in some AI generated prompts to start things off but will probably remov
 
 The difficulty level is calculated using the formula:
 
-`(max_players - remaining_players) + 1`, where `max_players = 10`.
+`difficulty_level=(max_players - remaining_players) + 1`, where `max_players = 10`.
 
 This ensures that prompts do not become impossible to answer. 
 So prompts having less answers than players alive are BAD prompts (e.g. "how many planets are there in the solar system?" would be invalid when the remaining players are more than 8).
