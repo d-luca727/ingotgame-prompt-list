@@ -1,6 +1,6 @@
 # Contributing to Ingot's Game
 
-This is the collection of ingot's game prompts.
+This is the collection of ingot's game deafult prompts.
 
 I threw in some AI generated prompts to start things off but will probably remove a lot of them, improve the difficulty system and add more creative ones.
 
@@ -10,7 +10,9 @@ I threw in some AI generated prompts to start things off but will probably remov
 - Ensure the prompt is **unique** and not already in the list.
 - Pick a difficulty level between **1** (easiest) and **9** (hardest) based on how challenging the prompt is and how many players are left. 
 
-**Important:** The prompt must have **at least** as many valid answers as the number of remaining players. The difficulty level is calculated using the formula:
+**Important:** The prompt must have **at least** as many valid answers as the number of remaining players. 
+
+The difficulty level is calculated using the formula:
 
 `(max_players - remaining_players) + 1`, where `max_players = 10`.
 
